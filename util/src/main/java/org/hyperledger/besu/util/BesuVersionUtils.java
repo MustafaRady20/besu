@@ -37,7 +37,7 @@ public final class BesuVersionUtils {
   /** Sentinel value used when the version or commit metadata is not available. */
   public static final String UNKNOWN = "UNKNOWN";
 
-  private static final String CLIENT = "besu";
+  private static final String CLIENT = "quranchain";
   private static final String VERSION;
   private static final String OS = PlatformDetector.getOS();
   private static final String VM = PlatformDetector.getVM();
