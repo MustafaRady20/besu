@@ -100,6 +100,14 @@ public enum NetworkDefinition {
           + "with a consensus layer client, or use Kurtosis:\n"
           + "https://github.com/ethpandaops/ethereum-package",
       true),
+  /** QuranChain local development network (QBFT). */
+  QURANCHAIN_DEV(
+      "/quranchain-dev.json",
+      7861, // chain id
+      7861, // network id
+      false, // can snap sync
+      false, // native required
+      60_000_000L), // target gas limit (only used by PoS networks)
   /** Future EIPs network name. */
   FUTURE_EIPS(
       "/future.json",

@@ -1,0 +1,42 @@
+{
+  "config": {
+    "chainId": 7861,
+    "londonBlock": 0,
+    "zeroBaseFee": true,
+    "contractSizeLimit": 2147483647,
+    "qbft": {
+      "blockperiodseconds": 5,
+      "emptyblockperiodseconds": 60,
+      "requesttimeoutseconds": 10,
+      "epochlength": 30000,
+      "blockreward": "0",
+      "miningbeneficiary": "0x8648e4ff42685dbdbb27591c3a95bfee55c4fefd"
+    },
+    "discovery": {
+      "bootnodes": [
+        "enode://4cf8492a2d93ee17bb4215dac51b42e5d14cd16f763e77a77d304b7dd6faf7415bb88f958eced7dfc8dc131d1a1ea0c685574abdbb2841b81eed0073ecf0592e@172.16.239.11:30303"
+      ]
+    }
+  },
+  "nonce": "0x0",
+  "timestamp": "0x58ee40ba",
+  "gasLimit": "0x1fffffffffffff",
+  "difficulty": "0x1",
+  "mixHash": "0x63746963616c2062797a616e74696e65206661756c7420746f6c6572616e6365",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "alloc": {
+    "0x75a2b65eaa340c8601207fbd41e0e0e5c60a5d83": {
+      "balance": "1000000000000000000000000"
+    },
+    "0xe8f69cc1a0851a336a51a21b3c19c7de4ceef5d7": {
+      "balance": "100000000000000000000"
+    },
+    "0xc7221e8ba37612746a47e6c16055986d57fab4a8": {
+      "balance": "100000000000000000000"
+    },
+    "0xd72b70ff021d51235a9ca71c1f9281691efe7f37": {
+      "balance": "100000000000000000000"
+    }
+  },
+  "extraData": "0xf87aa00000000000000000000000000000000000000000000000000000000000000000f85494921106f2c05a34741d5b512e98857cd73da38e4b9443cac362cc61c548737790d34d825c22cd044b0594b774d2e11622fd80fe292f0ef24cb11ec83c1e5e940f5f8885a32d3b3171d9ba2fa43595580b0cbdbfc080c0"
+}
